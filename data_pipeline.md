@@ -105,4 +105,3 @@ The choice between ETL, ELT, and EtLT depends on the specific compliance require
 
 ---
 
-**Note:** Always consult with legal and compliance teams to ensure the chosen pipeline aligns with industry-specific regulations.
