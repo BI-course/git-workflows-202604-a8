@@ -103,5 +103,6 @@ EtLT is a hybrid approach where data is:
 
 The choice between ETL, ELT, and EtLT depends on the specific compliance requirements of your industry and the nature of your data. **ETL** is often the safest for strict compliance, while **ELT** offers flexibility for real-time needs. **EtLT** provides a balanced approach, combining control with adaptability.
 
+Consult legal, regulatory experts with tech expertise as well.
 ---
 
