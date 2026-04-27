@@ -5,8 +5,6 @@
 
 In the context of data management, **ETL (Extract, Transform, Load)**, **ELT (Extract, Load, Transform)**, and **EtLT (Extract, Load a Little, Transform)** are three common data pipeline architectures. Each has distinct implications for compliance with legal and regulatory requirements, especially in industries like healthcare, finance, and data privacy-sensitive sectors.
 
----
-
 ## 1. ETL (Extract, Transform, Load)
 
 ### Definition
