@@ -29,3 +29,5 @@ In accordance with the 202604 Business Intelligence Lab requirements, the team i
 * **Celestine Kariuki** (Member 4): **Pipeline Specialist.** Responsible for analyzing ETL, ELT, and EtLT workflows in `data_pipeline.md`. (Issue #4)
 * **David Usyu & Ryan Pietro** (Member 5): **Governance & Compliance.** Responsible for data governance research and PII access documentation in `governance.md`. (Issue #5)
 ---
+Project lead: Member 5 — responsible for governance and audit.
+Project lead: Member 5 — responsible for governance and audit.
