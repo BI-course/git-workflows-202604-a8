@@ -23,15 +23,15 @@ All team members should clone the repository to their local machines:
 **Member 1** will act as the "team lead" for this lab.
 
 1. **Confirm that your Team Members are Collaborators:** Go to: **Settings > Collaborators**. You should see all five members listed with "Write" access or "Admin" access.
-
 2. **Configure Branch Protection:**
-    * Go to **Settings > Branches > Add branch ruleset**.
-    * Create a rule named `pr-and-1-approval-required-to-merge`.
-    * Set the enforcement status to **Active**.
-    * Include the default branch as the target.
-    * **Enable:** "Require a pull request before merging" and set "Required approvals" to **1**.
-    * This ensures that no team member can bypass the review process. At least 1 other team member must agree with the changes before they can be merged into `main`.
-    * Got to **Settings > Rulesets** and confirm that the new ruleset is active and correctly configured.
+
+   * Go to **Settings > Branches > Add branch ruleset**.
+   * Create a rule named `pr-and-1-approval-required-to-merge`.
+   * Set the enforcement status to **Active**.
+   * Include the default branch as the target.
+   * **Enable:** "Require a pull request before merging" and set "Required approvals" to **1**.
+   * This ensures that no team member can bypass the review process. At least 1 other team member must agree with the changes before they can be merged into `main`.
+   * Got to **Settings > Rulesets** and confirm that the new ruleset is active and correctly configured.
 
 ---
 
@@ -143,7 +143,7 @@ A commit message is a permanent, public record of **why** a change was made — 
 
 Your `git commit` command (without the `-m` flag) will open a text editor. Structure your message as follows:
 
-```text
+```plaintext
 <Verb in imperative mood> <concise description of the change> (≤72 characters)
 
 <Blank line — mandatory>
@@ -153,7 +153,9 @@ Why this change was made:
 What problem does this address?
 What would happen without this change?>
 
-Related issue: #<issue-number>
+Related issue: #<issue-done>
+
+
 ```
 
 Why the **imperative mood**? Git itself uses it — "Merge branch", "Revert commit", "Add file". Reading your message alongside Git's own messages should feel consistent. Write "Add feature" rather than "*Added* feature" or "*Adding* feature".
@@ -212,7 +214,7 @@ git pull origin main
 
 ---
 
-## 8. Handling Merge Conflicts (Member 4 and 5)
+## ![1777874645102](image/lab_instructions_part1/1777874645102.png)8. Handling Merge Conflicts (Member 4 and 5)
 
 A merge conflict occurs when two branches have each made different changes to the **same lines** in **the same file**. Git cannot decide which version is correct, so it pauses and asks you to resolve it manually.
 
@@ -293,7 +295,7 @@ Member 5's branch now contains a clean merge commit. Proceed to push and open yo
 
 The quality of the resolution matters as much as the resolution itself. In a professional codebase, a careless conflict resolution that silently discards one team member's valid change is far more dangerous than the conflict itself, precisely because it leaves no trace.
 
-The actual discipline is to understand both sides of the conflict well enough to make an informed editorial decision.
+The actual discipline is to understand both sides of the conflict well enough to make an informed editorial decision
 
 ---
 
@@ -310,23 +312,19 @@ While we used **Git Merge (`--no-ff`)**, be aware of these alternatives:
 
 **All Members** should practice viewing the "technical lab notes" of the project to ensure the process is transparent.
 
-* Go back to the main branch: `git checkout main`
+* Go back to the main branch:g
 * Fetch the latest changes: `git pull origin main`
 * Confirm that the remote branch is up to date with the branch in the origin by running `git status`
 * Then run `git log --oneline --graph` to view the repository history. You should see a series of "knots" representing the deliberate merge commits made by each team member.
-
 * **View a Graph of Merges:** To see how branches have evolved and joined, run:
 
-    ```bash
-    git log --merges
-    ```
-
-    *Note: This provides a quick overview of the branch evolution and is ideal for supervisors to see your collaborative process.*
-
+  ```bash
+  git log --merges
+  ```
+  *Note: This provides a quick overview of the branch evolution and is ideal for supervisors to see your collaborative process.*
 * **Inspect Recent Changes:** To see the full details of the most recent commit, including the reasoning in the commit body, use:
 
-    ```bash
-    git show HEAD
-    ```
-
-    *Note: The **HEAD** pointer identifies your current location in the repository's history.*
+  ```bash
+  git show HEAD
+  ```
+  *Note: The **HEAD** pointer identifies your current location in the repository's history.*
