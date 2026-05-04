@@ -12,7 +12,7 @@
 | **Note**         | The lecture contains both theory and practice.``This notebook forms part of the practice.``It is intended for educational purpose only.``Recommended citation: [BibTex](https://raw.githubusercontent.com/course-files/Git/refs/heads/main/RecommendedCitation.bib) |
 
 ## Lab Manuals
-
+Project lead: Member 4 — responsible for overall coordination.1
 Refer to the files in the order specified below for more details:
 
 - [lab_instructions_part1.md](lab_instructions_part1.md)
@@ -25,7 +25,7 @@ In accordance with the 202604 Business Intelligence Lab requirements, the team i
 
 * **Brandon Adam** (Member 1): **Team Lead.** Responsible for repository governance, branch protection setup, and documentation management. (Issue #1)
 * **Kahahu** (Member 2): **Data Research Lead.** Responsible for investigating business data sources and creating `data_source.md`. (Issue #2)
-* **Marwa** (Member 3): **Schema Design Lead.** Responsible for the technical description of Star Schemas and `warehouse_schema.md`. (Issue #3)
+* **171029 - Marwa** (Member 3): **Schema Design Lead.** Responsible for the technical description of Star Schemas and `warehouse_schema.md`. (Issue #3)
 * **Celestine Kariuki** (Member 4): **Pipeline Specialist.** Responsible for analyzing ETL, ELT, and EtLT workflows in `data_pipeline.md`. (Issue #4)
 * **David Usyu & Ryan Pietro** (Member 5): **Governance & Compliance.** Responsible for data governance research and PII access documentation in `governance.md`. (Issue #5)
 ---
