@@ -12,7 +12,7 @@
 | **Note**         | The lecture contains both theory and practice.``This notebook forms part of the practice.``It is intended for educational purpose only.``Recommended citation: [BibTex](https://raw.githubusercontent.com/course-files/Git/refs/heads/main/RecommendedCitation.bib) |
 
 ## Lab Manuals
-Project lead: Member 4 — responsible for overall coordination.
+Project lead: Member 4 — responsible for overall coordination.1
 Refer to the files in the order specified below for more details:
 
 - [lab_instructions_part1.md](lab_instructions_part1.md)
